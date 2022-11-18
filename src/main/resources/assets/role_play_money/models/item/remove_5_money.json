@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "role_play_money:items/remove_5_money"
+  }
+}

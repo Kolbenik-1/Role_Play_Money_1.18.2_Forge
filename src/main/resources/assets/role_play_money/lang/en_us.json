@@ -1,0 +1,16 @@
+{
+  "block.role_play_money.atm": "ATM",
+  "item.role_play_money.iron_coin": "Iron Coin",
+  "item.role_play_money.silver_coin": "Silver Coin",
+  "block.role_play_money.atm_top": "Atm Top",
+  "item.role_play_money.add_5_money": "Add 5 Money",
+  "item.role_play_money.green_credit_card": "Green Credit Card",
+  "item.role_play_money.reset_balance": "Reset Balance",
+  "item.role_play_money.purple_credit_card": "Purple Credit Card",
+  "itemGroup.tabrole_play_money": "Role Play Money",
+  "item.role_play_money.gold_coin": "Gold Coin",
+  "item.role_play_money.remove_5_money": "Remove 5 Money",
+  "item.role_play_money.bronze_coin": "Bronze Coin",
+  "item.role_play_money.red_credit_card": "Red Credit Card",
+  "item.role_play_money.blue_credit_card": "Blue Credit Card"
+}

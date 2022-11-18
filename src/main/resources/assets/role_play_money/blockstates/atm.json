@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "role_play_money:block/atm"
+    },
+    "facing=east": {
+      "model": "role_play_money:block/atm",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "role_play_money:block/atm",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "role_play_money:block/atm",
+      "y": 270
+    }
+  }
+}

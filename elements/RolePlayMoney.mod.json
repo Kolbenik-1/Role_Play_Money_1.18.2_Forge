@@ -1,0 +1,11 @@
+{
+  "_fv": 34,
+  "_type": "tab",
+  "definition": {
+    "name": "Role Play Money",
+    "icon": {
+      "value": "CUSTOM:CreditCard"
+    },
+    "showSearch": false
+  }
+}

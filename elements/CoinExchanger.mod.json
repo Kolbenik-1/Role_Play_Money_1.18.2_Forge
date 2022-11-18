@@ -1,0 +1,157 @@
+{
+  "_fv": 34,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "Coin Withdraw",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Coin Withdraw",
+          "x": 177,
+          "y": 40
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Bronze",
+          "onClick": {
+            "name": "AddBronzeCoin"
+          },
+          "width": 38,
+          "height": 20,
+          "name": "Bronze",
+          "x": 132,
+          "y": 80
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Iron",
+          "onClick": {
+            "name": "AddIronCoin"
+          },
+          "width": 38,
+          "height": 20,
+          "name": "Iron",
+          "x": 173,
+          "y": 80
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Silver",
+          "onClick": {
+            "name": "AddSilverCoin"
+          },
+          "width": 38,
+          "height": 20,
+          "name": "Silver",
+          "x": 215,
+          "y": 80
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Gold",
+          "onClick": {
+            "name": "AddGoldCoin"
+          },
+          "width": 38,
+          "height": 20,
+          "name": "Gold",
+          "x": 256,
+          "y": 80
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Back",
+          "onClick": {
+            "name": "Goback"
+          },
+          "width": 28,
+          "height": 20,
+          "name": "Back",
+          "x": 132,
+          "y": 43
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Cost: §6<VAR:integer:bronze_coin_value>§8, §8<VAR:integer:iron_coin_value>, §7<VAR:integer:silver_coin_value>§8, §e<VAR:integer:gold_coin_value>",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Cost: §6<VAR:integer:bronze_coin_value>§8, §8<VAR:integer:iron_coin_value>, §7<VAR:integer:silver_coin_value>§8, §e<VAR:integer:gold_coin_value>",
+          "x": 132,
+          "y": 107
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Transfer Player Balance to Coin",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Transfer Player Balance to Coin",
+          "x": 132,
+          "y": 67
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Player Balance:",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Player Balance:",
+          "x": 168,
+          "y": 53
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<VAR:integer:balance_player>",
+          "color": {
+            "value": -13369600,
+            "falpha": 0.0
+          },
+          "name": "<VAR:integer:balance_player>",
+          "x": 249,
+          "y": 53
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

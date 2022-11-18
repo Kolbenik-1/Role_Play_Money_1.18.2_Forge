@@ -1,0 +1,157 @@
+{
+  "_fv": 34,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "ATM",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "ATM",
+          "x": 205,
+          "y": 40
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Player Balance:",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Player Balance:",
+          "x": 131,
+          "y": 64
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<VAR:integer:balance_player>",
+          "color": {
+            "value": -13369600,
+            "falpha": 0.0
+          },
+          "name": "<VAR:integer:balance_player>",
+          "x": 212,
+          "y": 64
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Card Balance:",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Card Balance:",
+          "x": 131,
+          "y": 79
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<BNBT:text:card>",
+          "color": {
+            "value": -39424,
+            "falpha": 0.0
+          },
+          "name": "<BNBT:text:card>",
+          "x": 212,
+          "y": 78
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Deposit",
+          "onClick": {
+            "name": "PayIn"
+          },
+          "width": 45,
+          "height": 20,
+          "name": "Deposit",
+          "x": 131,
+          "y": 97
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Withdraw",
+          "onClick": {
+            "name": "PayOut"
+          },
+          "width": 49,
+          "height": 20,
+          "name": "Withdraw",
+          "x": 177,
+          "y": 97
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "",
+          "width": 45,
+          "height": 20,
+          "name": "Amount",
+          "x": 227,
+          "y": 97
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "CUSTOM:CreditCard"
+          },
+          "id": 0,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #0",
+          "x": 276,
+          "y": 98
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Back",
+          "onClick": {
+            "name": "Goback"
+          },
+          "width": 27,
+          "height": 20,
+          "name": "Back",
+          "x": 131,
+          "y": 42
+        }
+      }
+    ],
+    "onClosed": {
+      "name": "ATMGUIThisGUIIsClosed"
+    },
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

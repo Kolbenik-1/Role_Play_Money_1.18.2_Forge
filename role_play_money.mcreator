@@ -1,0 +1,1117 @@
+{
+  "mod_elements": [
+    {
+      "name": "MoneyOverlay",
+      "type": "overlay",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "money_overlay",
+      "path": "~/Money_Overlay"
+    },
+    {
+      "name": "CreditCard",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_credit_card",
+      "path": "~/Credit_Card"
+    },
+    {
+      "name": "CreditCardRightclicked",
+      "type": "procedure",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "credit_card_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/Credit_Card"
+    },
+    {
+      "name": "ATM",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "atm",
+      "path": "~/ATM"
+    },
+    {
+      "name": "ATMGUI",
+      "type": "gui",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "atmgui",
+      "path": "~/ATM"
+    },
+    {
+      "name": "ATMUpdateTick",
+      "type": "procedure",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "atm_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/ATM"
+    },
+    {
+      "name": "PayIn",
+      "type": "procedure",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pay_in",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "guistate",
+            "type": "map"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/ATM"
+    },
+    {
+      "name": "PayOut",
+      "type": "procedure",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pay_out",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "guistate",
+            "type": "map"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/ATM"
+    },
+    {
+      "name": "Add5MoneyRightclicked",
+      "type": "procedure",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "add_5_money_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/debug_items"
+    },
+    {
+      "name": "Add5Money",
+      "type": "item",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "add_5_money",
+      "path": "~/debug_items"
+    },
+    {
+      "name": "Remove5MoneyRightclicked",
+      "type": "procedure",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "remove_5_money_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/debug_items"
+    },
+    {
+      "name": "Remove5Money",
+      "type": "item",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "remove_5_money",
+      "path": "~/debug_items"
+    },
+    {
+      "name": "BronzeCoin",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bronze_coin",
+      "path": "~/coins"
+    },
+    {
+      "name": "IronCoin",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_coin",
+      "path": "~/coins"
+    },
+    {
+      "name": "SilverCoin",
+      "type": "item",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_coin",
+      "path": "~/coins"
+    },
+    {
+      "name": "GoldCoin",
+      "type": "item",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_coin",
+      "path": "~/coins"
+    },
+    {
+      "name": "CoinExchanger",
+      "type": "gui",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coin_exchanger_gui",
+      "path": "~/coin_exchanger"
+    },
+    {
+      "name": "Goback",
+      "type": "procedure",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "goback",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/coin_exchanger"
+    },
+    {
+      "name": "AddBronzeCoin",
+      "type": "procedure",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "add_bronze_coin",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/coin_exchanger"
+    },
+    {
+      "name": "AddIronCoin",
+      "type": "procedure",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "add_iron_coin",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/coin_exchanger"
+    },
+    {
+      "name": "AddSilverCoin",
+      "type": "procedure",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "add_silver_coin",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/coin_exchanger"
+    },
+    {
+      "name": "AddGoldCoin",
+      "type": "procedure",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "add_gold_coin",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/coin_exchanger"
+    },
+    {
+      "name": "Atmdefaultgui",
+      "type": "gui",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "atmdefaultgui",
+      "path": "~/ATM"
+    },
+    {
+      "name": "OpenScreenCreditCardDepositWithdraw",
+      "type": "procedure",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "open_screen_credit_card_deposit_withdraw",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/ATM"
+    },
+    {
+      "name": "OpenScreencoinwithdraw",
+      "type": "procedure",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "open_screencoinwithdraw",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/ATM"
+    },
+    {
+      "name": "ATMGUIThisGUIIsClosed",
+      "type": "procedure",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "atmgui_this_gui_is_closed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/ATM"
+    },
+    {
+      "name": "CoinDepositgui",
+      "type": "gui",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coin_depositgui",
+      "path": "~/coin_exchanger"
+    },
+    {
+      "name": "RemoveBronzeCoin",
+      "type": "procedure",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "remove_bronze_coin",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/coin_exchanger"
+    },
+    {
+      "name": "RemoveIronCoin",
+      "type": "procedure",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "remove_iron_coin",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/coin_exchanger"
+    },
+    {
+      "name": "RemoveSilverCoin",
+      "type": "procedure",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "remove_silver_coin",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/coin_exchanger"
+    },
+    {
+      "name": "RemoveGoldCoin",
+      "type": "procedure",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "remove_gold_coin",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/coin_exchanger"
+    },
+    {
+      "name": "OpenScreenDeposit",
+      "type": "procedure",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "open_screen_deposit",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/ATM"
+    },
+    {
+      "name": "RolePlayMoneyCommonConfig",
+      "type": "procedure",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "role_play_money_common_config",
+      "metadata": {
+        "dependencies": []
+      },
+      "path": "~/config"
+    },
+    {
+      "name": "ForgeCoin",
+      "type": "tag",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "forge_coin",
+      "path": "~/tags"
+    },
+    {
+      "name": "ResetBalanceRightclicked",
+      "type": "procedure",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reset_balance_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/debug_items"
+    },
+    {
+      "name": "ResetBalance",
+      "type": "item",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reset_balance",
+      "path": "~/debug_items"
+    },
+    {
+      "name": "MoneyOverlayDisplayOverlayIngame",
+      "type": "procedure",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "money_overlay_display_overlay_ingame",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Money_Overlay"
+    },
+    {
+      "name": "ItemTooltip",
+      "type": "procedure",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "item_tooltip",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "tooltip",
+            "type": "tooltip"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RolePlayMoney",
+      "type": "tab",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "role_play_money"
+    },
+    {
+      "name": "ShowBalanceOverlay",
+      "type": "procedure",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "show_balance_overlay",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Money_Overlay"
+    },
+    {
+      "name": "CreditCardTag",
+      "type": "tag",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "credit_card_tag",
+      "path": "~/tags"
+    },
+    {
+      "name": "GreenCreditCard",
+      "type": "item",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green_credit_card",
+      "path": "~/Credit_Card"
+    },
+    {
+      "name": "RedCreditCard",
+      "type": "item",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_credit_card",
+      "path": "~/Credit_Card"
+    },
+    {
+      "name": "PurpleCreditCard",
+      "type": "item",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purple_credit_card",
+      "path": "~/Credit_Card"
+    },
+    {
+      "name": "ForgeCoinBronze",
+      "type": "tag",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "forge_coin_bronze",
+      "path": "~/tags"
+    },
+    {
+      "name": "ForgeCoinIron",
+      "type": "tag",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "forge_coin_iron",
+      "path": "~/tags"
+    },
+    {
+      "name": "ForgeCoinSilver",
+      "type": "tag",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "forge_coin_silver",
+      "path": "~/tags"
+    },
+    {
+      "name": "ForgeCoinGold",
+      "type": "tag",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "forge_coin_gold",
+      "path": "~/tags"
+    },
+    {
+      "name": "ForgeBronzeCoin",
+      "type": "tag",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "forge_bronze_coin",
+      "path": "~/tags"
+    },
+    {
+      "name": "ForgeIronCoin",
+      "type": "tag",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "forge_iron_coin",
+      "path": "~/tags"
+    },
+    {
+      "name": "ForgeSilverCoin",
+      "type": "tag",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "forge_silver_coin",
+      "path": "~/tags"
+    },
+    {
+      "name": "ForgeGoldCoin",
+      "type": "tag",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "forge_gold_coin",
+      "path": "~/tags"
+    },
+    {
+      "name": "SetBalance",
+      "type": "procedure",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "set_balance",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          }
+        ]
+      },
+      "path": "~/RPM_Command"
+    },
+    {
+      "name": "AddBalance",
+      "type": "procedure",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "add_balance",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          }
+        ]
+      },
+      "path": "~/RPM_Command"
+    },
+    {
+      "name": "RemoveBalance",
+      "type": "procedure",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "remove_balance",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          }
+        ]
+      },
+      "path": "~/RPM_Command"
+    },
+    {
+      "name": "Rpm",
+      "type": "command",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rpm",
+      "path": "~/RPM_Command"
+    },
+    {
+      "name": "ATMBlockValidPlacementCondition",
+      "type": "procedure",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "atm_block_valid_placement_condition",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/ATM"
+    },
+    {
+      "name": "ATMBlockIsPlacedBy",
+      "type": "procedure",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "atm_block_is_placed_by",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/ATM"
+    },
+    {
+      "name": "AtmTop",
+      "type": "block",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "atm_top",
+      "path": "~/ATM"
+    },
+    {
+      "name": "ATMBlockDestroyed",
+      "type": "procedure",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "atm_block_destroyed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/ATM"
+    },
+    {
+      "name": "AtmTopBlockDestroyed",
+      "type": "procedure",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "atm_top_block_destroyed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/ATM"
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "balance_player",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "bronze_coin_value",
+      "type": "number",
+      "scope": "global",
+      "value": "1.0"
+    },
+    {
+      "name": "iron_coin_value",
+      "type": "number",
+      "scope": "global",
+      "value": "16.0"
+    },
+    {
+      "name": "silver_coin_value",
+      "type": "number",
+      "scope": "global",
+      "value": "64.0"
+    },
+    {
+      "name": "gold_coin_value",
+      "type": "number",
+      "scope": "global",
+      "value": "128.0"
+    },
+    {
+      "name": "show_balance_overlay",
+      "type": "logic",
+      "scope": "global",
+      "value": "true"
+    },
+    {
+      "name": "updateItemInformation",
+      "type": "logic",
+      "scope": "global",
+      "value": "true"
+    },
+    {
+      "name": "show_balance_overlay_player",
+      "type": "logic",
+      "scope": "player_lifetime",
+      "value": "true"
+    }
+  ],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "block.role_play_money.atm": "ATM",
+      "item.role_play_money.iron_coin": "Iron Coin",
+      "item.role_play_money.silver_coin": "Silver Coin",
+      "block.role_play_money.atm_top": "Atm Top",
+      "item.role_play_money.add_5_money": "Add 5 Money",
+      "item.role_play_money.green_credit_card": "Green Credit Card",
+      "item.role_play_money.reset_balance": "Reset Balance",
+      "item.role_play_money.purple_credit_card": "Purple Credit Card",
+      "itemGroup.tabrole_play_money": "Role Play Money",
+      "item.role_play_money.gold_coin": "Gold Coin",
+      "item.role_play_money.remove_5_money": "Remove 5 Money",
+      "item.role_play_money.bronze_coin": "Bronze Coin",
+      "item.role_play_money.red_credit_card": "Red Credit Card",
+      "item.role_play_money.blue_credit_card": "Blue Credit Card"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Money_Overlay",
+        "children": []
+      },
+      {
+        "name": "Credit_Card",
+        "children": []
+      },
+      {
+        "name": "ATM",
+        "children": []
+      },
+      {
+        "name": "debug_items",
+        "children": []
+      },
+      {
+        "name": "coins",
+        "children": []
+      },
+      {
+        "name": "config",
+        "children": []
+      },
+      {
+        "name": "tags",
+        "children": []
+      },
+      {
+        "name": "coin_exchanger",
+        "children": []
+      },
+      {
+        "name": "RPM_Command",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "role_play_money",
+    "modName": "Role Play Money",
+    "version": "1.3.5",
+    "author": "Kolbenik, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.18.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.kolbenik.roleplaymoney",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200346416
+}

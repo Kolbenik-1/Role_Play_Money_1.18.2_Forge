@@ -1,0 +1,27 @@
+{
+  "_fv": 34,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:CreditCard"
+      },
+      {
+        "value": "CUSTOM:GreenCreditCard"
+      },
+      {
+        "value": "CUSTOM:RedCreditCard"
+      },
+      {
+        "value": "CUSTOM:PurpleCreditCard"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "name": "credit_card",
+    "namespace": "mod"
+  }
+}

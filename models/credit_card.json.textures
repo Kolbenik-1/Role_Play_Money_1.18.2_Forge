@@ -1,0 +1,28 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "credit_card_texture"
+      },
+      "name": "default"
+    },
+    "credit_crad_2": {
+      "map": {
+        "0": "credit_card_2"
+      },
+      "name": "credit_crad_2"
+    },
+    "credit_crad_3": {
+      "map": {
+        "0": "credit_card_3"
+      },
+      "name": "credit_crad_3"
+    },
+    "credit_crad_4": {
+      "map": {
+        "0": "credit_card_4"
+      },
+      "name": "credit_crad_4"
+    }
+  }
+}

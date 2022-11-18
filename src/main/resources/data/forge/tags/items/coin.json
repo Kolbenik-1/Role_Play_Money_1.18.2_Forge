@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "role_play_money:bronze_coin",
+    "role_play_money:iron_coin",
+    "role_play_money:silver_coin",
+    "role_play_money:gold_coin"
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "_fv": 34,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "ATM",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "ATM",
+          "x": 205,
+          "y": 43
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Coin Withdraw",
+          "onClick": {
+            "name": "OpenScreencoinwithdraw"
+          },
+          "width": 74,
+          "height": 20,
+          "name": "Coin Withdraw",
+          "x": 215,
+          "y": 97
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Coin Deposit",
+          "onClick": {
+            "name": "OpenScreenDeposit"
+          },
+          "width": 74,
+          "height": 20,
+          "name": "Coin Deposit",
+          "x": 137,
+          "y": 97
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Credit Card Deposit/Withdraw",
+          "onClick": {
+            "name": "OpenScreenCreditCardDepositWithdraw"
+          },
+          "width": 152,
+          "height": 20,
+          "name": "Credit Card Deposit/Withdraw",
+          "x": 137,
+          "y": 71
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

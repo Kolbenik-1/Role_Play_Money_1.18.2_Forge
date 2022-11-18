@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "role_play_money:items/sliver_coin_v4"
+  }
+}

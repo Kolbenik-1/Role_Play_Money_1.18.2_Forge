@@ -1,0 +1,47 @@
+{
+  "_fv": 34,
+  "_type": "overlay",
+  "definition": {
+    "priority": "NORMAL",
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "Balance:",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Balance:",
+          "x": 33,
+          "y": 224
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<VAR:integer:balance_player>",
+          "color": {
+            "value": -3381760,
+            "falpha": 0.0
+          },
+          "name": "<VAR:integer:balance_player>",
+          "x": 78,
+          "y": 224
+        }
+      }
+    ],
+    "baseTexture": "",
+    "overlayTarget": "Ingame",
+    "displayCondition": {
+      "name": "MoneyOverlayDisplayOverlayIngame"
+    },
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}
