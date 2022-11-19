@@ -3,9 +3,9 @@
   "_type": "item",
   "definition": {
     "renderType": 1,
-    "texture": "green_placeholder",
-    "customModelName": "credit_card:green",
-    "name": "Green Credit Card",
+    "texture": "pink_placeholder",
+    "customModelName": "credit_card:pink",
+    "name": "Pink Credit Card",
     "rarity": "COMMON",
     "creativeTab": {
       "value": "CUSTOM:RolePlayMoney"

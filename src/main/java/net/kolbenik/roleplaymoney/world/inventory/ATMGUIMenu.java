@@ -80,10 +80,7 @@ public class ATMGUIMenu extends AbstractContainerMenu implements Supplier<Map<In
 		this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 151, 62) {
 			@Override
 			public boolean mayPlace(ItemStack stack) {
-				return RolePlayMoneyModItems.BLUE_CREDIT_CARD.get() == stack.getItem() || RolePlayMoneyModItems.GREEN_CREDIT_CARD.get() == stack.getItem()
-				|| RolePlayMoneyModItems.RED_CREDIT_CARD.get() == stack.getItem()
-				|| RolePlayMoneyModItems.PURPLE_CREDIT_CARD.get() == stack.getItem();
-
+				return (RolePlayMoneyModItems.BLUE_CREDIT_CARD.get() == stack.getItem());
 			}
 		}));
 		for (int si = 0; si < 3; ++si)

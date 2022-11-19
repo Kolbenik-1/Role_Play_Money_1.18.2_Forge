@@ -4,7 +4,7 @@
   "definition": {
     "renderType": 1,
     "texture": "red_credit_card_placeholder",
-    "customModelName": "credit_card:credit_crad_3",
+    "customModelName": "credit_card:red",
     "name": "Red Credit Card",
     "rarity": "COMMON",
     "creativeTab": {

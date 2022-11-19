@@ -3,8 +3,8 @@
   "_type": "item",
   "definition": {
     "renderType": 1,
-    "texture": "purple_credit_card_placeholder",
-    "customModelName": "credit_card:credit_crad_2",
+    "texture": "purple_placeholder",
+    "customModelName": "credit_card:purple",
     "name": "Purple Credit Card",
     "rarity": "COMMON",
     "creativeTab": {

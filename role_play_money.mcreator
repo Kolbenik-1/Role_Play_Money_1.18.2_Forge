@@ -983,6 +983,114 @@
         ]
       },
       "path": "~/ATM"
+    },
+    {
+      "name": "WhiteCreditCard",
+      "type": "item",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_credit_card",
+      "path": "~/Credit_Card"
+    },
+    {
+      "name": "BlackCreditCard",
+      "type": "item",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_credit_card",
+      "path": "~/Credit_Card"
+    },
+    {
+      "name": "BrownCreditCard",
+      "type": "item",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brown_credit_card",
+      "path": "~/Credit_Card"
+    },
+    {
+      "name": "CyanCreditCard",
+      "type": "item",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cyan_credit_card",
+      "path": "~/Credit_Card"
+    },
+    {
+      "name": "GrayCreditCard",
+      "type": "item",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gray_credit_card",
+      "path": "~/Credit_Card"
+    },
+    {
+      "name": "LightBlueCreditCard",
+      "type": "item",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_blue_credit_card",
+      "path": "~/Credit_Card"
+    },
+    {
+      "name": "LightGrayCreditCard",
+      "type": "item",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_gray_credit_card",
+      "path": "~/Credit_Card"
+    },
+    {
+      "name": "MagentaCreditCard",
+      "type": "item",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magenta_credit_card",
+      "path": "~/Credit_Card"
+    },
+    {
+      "name": "LimeCreditCard",
+      "type": "item",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lime_credit_card",
+      "path": "~/Credit_Card"
+    },
+    {
+      "name": "OrangeCreditCard",
+      "type": "item",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orange_credit_card",
+      "path": "~/Credit_Card"
+    },
+    {
+      "name": "PinkCreditCard",
+      "type": "item",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pink_credit_card",
+      "path": "~/Credit_Card"
+    },
+    {
+      "name": "YellowCreditCard",
+      "type": "item",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yellow_credit_card",
+      "path": "~/Credit_Card"
     }
   ],
   "variable_elements": [
@@ -1039,19 +1147,31 @@
   "language_map": {
     "en_us": {
       "block.role_play_money.atm": "ATM",
-      "item.role_play_money.iron_coin": "Iron Coin",
-      "item.role_play_money.silver_coin": "Silver Coin",
-      "block.role_play_money.atm_top": "Atm Top",
-      "item.role_play_money.add_5_money": "Add 5 Money",
+      "item.role_play_money.lime_credit_card": "Lime Credit Card",
+      "item.role_play_money.cyan_credit_card": "Cyan Credit Card",
       "item.role_play_money.green_credit_card": "Green Credit Card",
       "item.role_play_money.reset_balance": "Reset Balance",
-      "item.role_play_money.purple_credit_card": "Purple Credit Card",
       "itemGroup.tabrole_play_money": "Role Play Money",
       "item.role_play_money.gold_coin": "Gold Coin",
+      "item.role_play_money.light_gray_credit_card": "Light Gray Credit Card",
+      "item.role_play_money.brown_credit_card": "Brown Credit Card",
+      "item.role_play_money.red_credit_card": "Red Credit Card",
+      "item.role_play_money.black_credit_card": "Black Credit Card",
+      "item.role_play_money.iron_coin": "Iron Coin",
+      "item.role_play_money.silver_coin": "Silver Coin",
+      "item.role_play_money.add_5_money": "Add 5 Money",
+      "block.role_play_money.atm_top": "Atm Top",
+      "item.role_play_money.light_blue_credit_card": "Light Blue Credit Card",
+      "item.role_play_money.gray_credit_card": "Gray Credit Card",
+      "item.role_play_money.purple_credit_card": "Purple Credit Card",
+      "item.role_play_money.pink_credit_card": "Pink Credit Card",
+      "item.role_play_money.white_credit_card": "White Credit Card",
+      "item.role_play_money.orange_credit_card": "Orange Credit Card",
       "item.role_play_money.remove_5_money": "Remove 5 Money",
       "item.role_play_money.bronze_coin": "Bronze Coin",
-      "item.role_play_money.red_credit_card": "Red Credit Card",
-      "item.role_play_money.blue_credit_card": "Blue Credit Card"
+      "item.role_play_money.blue_credit_card": "Blue Credit Card",
+      "item.role_play_money.magenta_credit_card": "Magenta Credit Card",
+      "item.role_play_money.yellow_credit_card": "Yellow Credit Card"
     }
   },
   "foldersRoot": {

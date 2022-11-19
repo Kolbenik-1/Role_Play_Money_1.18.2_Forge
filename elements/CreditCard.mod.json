@@ -4,7 +4,7 @@
   "definition": {
     "renderType": 1,
     "texture": "blue_credit_card_placeholder",
-    "customModelName": "credit_card:default",
+    "customModelName": "credit_card:blue",
     "name": "Blue Credit Card",
     "rarity": "COMMON",
     "creativeTab": {

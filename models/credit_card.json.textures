@@ -2,27 +2,99 @@
   "mappings": {
     "default": {
       "map": {
-        "0": "credit_card_texture"
+        "0": "white_credit_card"
       },
       "name": "default"
     },
-    "credit_crad_2": {
+    "orange": {
       "map": {
-        "0": "credit_card_2"
+        "0": "new_orange_credit_card"
       },
-      "name": "credit_crad_2"
+      "name": "orange"
     },
-    "credit_crad_3": {
+    "magenta": {
       "map": {
-        "0": "credit_card_3"
+        "0": "lilac_credit_card"
       },
-      "name": "credit_crad_3"
+      "name": "magenta"
     },
-    "credit_crad_4": {
+    "light_blue": {
       "map": {
-        "0": "credit_card_4"
+        "0": "light_blue_credit_crad"
       },
-      "name": "credit_crad_4"
+      "name": "light_blue"
+    },
+    "yellow": {
+      "map": {
+        "0": "yellow_credit_card"
+      },
+      "name": "yellow"
+    },
+    "lime": {
+      "map": {
+        "0": "lime_credit_card"
+      },
+      "name": "lime"
+    },
+    "pink": {
+      "map": {
+        "0": "pink_credit_card"
+      },
+      "name": "pink"
+    },
+    "gray": {
+      "map": {
+        "0": "gray_credit_card"
+      },
+      "name": "gray"
+    },
+    "light_gray": {
+      "map": {
+        "0": "light_gray_credit_card"
+      },
+      "name": "light_gray"
+    },
+    "cyan": {
+      "map": {
+        "0": "cyan_credit_card"
+      },
+      "name": "cyan"
+    },
+    "purple": {
+      "map": {
+        "0": "purple_credit_card"
+      },
+      "name": "purple"
+    },
+    "blue": {
+      "map": {
+        "0": "blue_credit_card"
+      },
+      "name": "blue"
+    },
+    "brown": {
+      "map": {
+        "0": "brown_credit_card"
+      },
+      "name": "brown"
+    },
+    "green": {
+      "map": {
+        "0": "green_credit_card"
+      },
+      "name": "green"
+    },
+    "red": {
+      "map": {
+        "0": "new_red_credit_card"
+      },
+      "name": "red"
+    },
+    "black": {
+      "map": {
+        "0": "black_credit_card"
+      },
+      "name": "black"
     }
   }
 }

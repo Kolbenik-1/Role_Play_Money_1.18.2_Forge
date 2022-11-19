@@ -1,7 +1,7 @@
 {
   "parent": "role_play_money:custom/credit_card",
   "textures": {
-    "0": "role_play_money:blocks/credit_card_4",
-    "particle": "role_play_money:items/green_credit_card_placeholder"
+    "0": "role_play_money:blocks/green_credit_card",
+    "particle": "role_play_money:items/green_placeholder"
   }
 }

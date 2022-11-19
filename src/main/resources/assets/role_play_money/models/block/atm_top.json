@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "role_play_money:blocks/money_payer",
+    "up": "role_play_money:blocks/money_payer",
+    "north": "role_play_money:blocks/test",
+    "east": "role_play_money:blocks/money_payer",
+    "south": "role_play_money:blocks/money_payer",
+    "west": "role_play_money:blocks/money_payer",
+    "particle": "role_play_money:blocks/money_payer"
+  }
+}
